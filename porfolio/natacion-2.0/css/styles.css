@@ -1,0 +1,684 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+main{
+    padding-top: 130px;
+    z-index: -1;
+}
+/* ----- WIDTH ----- */
+.w-100{
+    width: 100%;
+}
+.w-90{
+    width: 90%;
+}
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 70%;
+}
+.w-60{
+    width: 60%;
+}
+.w-50{
+    width: 50%;
+}
+.w-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}
+.w-25{
+    width: 25%;
+}
+.w-15{
+    width: 15%;
+}
+.w-10{
+    width: 10%;
+}
+/* -----MARGIN----- */
+.margin-0{
+    margin: 0;;
+}
+.margin-4-s{
+    margin: .5em;
+}
+.margin-4-m{
+    margin: 1.5em;
+}
+.margin-x-medium{
+    margin: 0 1em;
+}
+.margin-x-xl{
+    margin: 0 1.5em;
+}
+.margin-y-sm{
+    margin: .5em 0;
+}
+.margin-y-small{
+    margin: .2em 0;
+}
+.margin-y-xl{
+    margin: 2em 0;
+}
+.margin-y-medium{
+    margin: 1.5em 0;
+}
+.margin-bottom{
+    margin-bottom: 2em;
+}
+.margin-bottom-s{
+    margin-bottom: .5em;
+}
+.margin-right-s{
+    margin-right: .5em;
+}
+.margin-left-s{
+    margin-left: .5em;
+}
+.margin-bottom-0{
+    margin-bottom: 0;
+}
+.margin-top-xl{
+    margin-top: 1.5em;
+}
+/* ----- PADDING ----- */
+.padding-4-xs{
+    padding: .2em;
+}
+.padding-4-s{
+    padding: .5em;
+}
+.padding-4-m{
+    padding: 1em;
+}
+.padding-x-medium{
+    padding: 0 1em;
+}
+.padding-x-xl{
+    padding: 0 2em;
+}
+.padding-y-xl{
+    padding: 1.5em 0;
+}
+.padding-y-medium{
+    padding: 1em 0;
+}
+.padding-y-small{
+    padding: .5em 0;
+}
+.padding-bottom{
+    padding-bottom: 1em;
+}
+.padding-top{
+    padding-top: 1.5em;
+}
+.padding-title{
+    padding: .1em 0;
+}
+/* ----- PALETA DE ESTILOS ----- */
+/* ----- COLORES DE FONDO */
+.bg-blue{
+    background-color: #1919ce;
+}
+.bg-soft-blue{
+    background-color: #416eeb;
+}
+.bg-white{
+    background-color: #f5f5f8;
+}
+.bg-black{
+    background-color: #101011;
+}
+.bg-dark-grey{
+    background-color: #4b4949;
+}
+.bg-soft-grey{
+    background: #dcdcdc;
+}
+.bg-yellow{
+    background-color: #ffd700;
+}
+.bg-brown{
+    background-color: rgb(174, 128, 14);
+}
+/* ----- COLORES DE LETRA ----- */
+.color-white{
+    color: #f5f5f8;
+}
+.color-blue{
+    color: #1919ce;
+}
+.color-soft-blue{
+    color: #87cefa;
+}
+.color-black{
+    color: #101011;
+}
+.color-red{
+    color: #f30a0a;
+}
+.color-green{
+    color: #08ee08;
+}
+.color-other{
+    color: #ebba1a;
+}
+/* ----- PROPIEDAD FLEX ----- */
+.flex{
+    display: flex;
+}
+.flex-center{
+    justify-content: center;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: flex-start;
+}
+.flex-column{
+    flex-direction: column;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+/* ----- PROPIEDAD POSITION ----- */
+.p-fixed{
+    position: fixed;
+}
+.p-absolute{
+    position: absolute;
+}
+.p-relative{
+    position: relative;
+}
+/* ----- PROPIEDADES ESPECIALES ----- */
+.h-300{
+    height: 300px;
+}
+.ocultar-elemento{
+    display: none;
+}
+.mostrar-elementos{
+    display: block;
+}
+.boton{
+    padding: .7em 2em;
+}
+.boton-flecha{
+    padding: .7em 1em;
+}
+.box-shadow{
+    box-shadow: 5px 5px 10px #101011;
+}
+.icono-redes{
+    padding: 10px;
+    border-radius: 50%;
+}
+.publicidad{
+    height: 210px;
+}
+.publicidad0{
+    background: url("../img/banner-decathlon.png") no-repeat center;
+    background-size: cover;
+}
+.publicidad1{
+    background: url("../img/banner_arena.jpg") no-repeat center;
+    background-size: cover;
+}
+.publicidad2{
+    background: url("../img/banner-coca.jpg");
+    background-size: cover;
+}
+/* ----- PROPIEDAD BORDER ----- */
+.border{
+    border: 1px solid #9e9ea7;
+}
+.border-top{
+    border-top: 1px solid #101011;
+}
+.border-bottom{
+    border-bottom: 1px solid #101011;
+}
+.border-none{
+    border: none;
+}
+.border-radius{
+    border-radius: 5px;
+}
+.border-f{
+    border-radius: 120px;
+    border: 3px solid #101011;
+    padding: 2px 13px;
+}
+/* ----- PROPIEDAD DE TEXTO ----- */
+.text-center{
+    text-align: center;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.text-orientation{
+    text-orientation:upright;
+    writing-mode:vertical-lr;
+}
+.negrita{
+    font-weight: bold;
+}
+.text-mayuscula{
+    text-transform: uppercase;
+}
+.line-height{
+    line-height: 1.4em;
+}
+/* ----- TAMAÑO LETRA ----- */
+.font-size-xxl{
+    font-size: 3em;
+}
+.font-size-xl{
+    font-size: 2em;
+}
+.font-size-m{
+    font-size: 1.5em;
+}
+.font-size-rem{
+    font-size: 1.5rem;
+}
+/* Propiedades javascript */
+.ocultar-respuesta{
+    display: none;
+}
+.mostrar_respuesta{
+    display: block;
+}
+/* ----- ((COMIENZO DE ESTILOS PAGINA)) ----- */
+/* ----- HEADER ----- */
+.header{
+    z-index: 100;
+}
+.btn-menuHeader{
+    right: 1em;
+    top: 1em;
+    font-size: 1.7em;
+}
+/* ----- SLIDER ------ */
+.arrow-left{
+    top: 40%;
+    left: 12%;
+}
+.arrow-right{
+    right: 0;
+    top: 40%;
+}
+.slider-screen{
+    width: 60%;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    width: 400%;
+}
+.slider .img-slider{
+    width: 25%;
+}
+.span-card{
+    bottom: 0;
+}
+.cont-img-slider{
+    width: 70%;
+}
+.img-cont{
+    max-width: 100%;
+}
+/* ----- TEXTO SLIDER ----- */
+.text-screen{
+    width: 80%;
+    overflow: hidden;
+}
+.slider-texto{
+    display: flex;
+    width: 400%;
+}
+.text-slider{
+    width: 89%;
+}
+/* ----- TERESA ----- */
+.container-nadador{
+    width: 100%;
+}
+.img-nadador{
+    width: 100%;
+}
+/* ----- TECNICA ----- */
+.container-tecnica{
+    width: 70%;
+}
+.img-tecnica{
+    max-width: 100%;
+}
+/* ----- LOCALIZACION ----- */
+
+/* ----- RESULTADOS ----- */
+.container-img-resultados{
+    width: 100%;
+}
+.img-resultados{
+    max-width: 100%;
+}
+/* -----((CAMBIO HTML --> HISTORIA)) ----- */
+.container-historia{
+    width: 260px;
+}
+.img-historia{
+    max-width: 100%;
+}
+/* -----((CAMBIO HTML --> EVENTO)) ----- */
+.container-card{
+    width: 100%;
+}
+.img-card{
+    max-width: 100%;
+}
+.card:hover{
+    filter: grayscale(1);
+}
+/* -----((CAMBIO HTML --> NOTICIAS)) ----- */
+.cabecera-logo{
+    width: 20%;
+}
+.img-cabecera, .img-logo{
+    max-width: 100%;
+}
+/* -----((CAMBIO HTML --> NOTICIAS--IND))----- */
+.cont-img{
+    width: 100%;
+}
+.img-cont{
+    max-width: 100%;
+}
+.cont-not{
+    width: 100%;
+}
+/* -----((CAMBIO HTML --> TECNICA))-----
+ */
+/* ----- ((COMIENZO MEDIA-QUERY)) ----- */
+@media screen and (max-width:768px) {
+    main{
+        padding-top: 49px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* publicidad */
+    .publicidad{
+        width: 100%;
+        height: 80px;
+    }
+    /* header */
+    .title-responsive{
+        width: 92%;
+    }
+    .menu-header{
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        background-color: #9e9ea7;
+        transform: translateX(-100%);
+        transition: .4s ease;
+    }
+    .menu-header-show{
+        transform: translateX(0);
+    }
+    .btn-menuHeader{
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .menu-header-item{
+        padding: 1em 0;
+    }
+    .noticias-responsive{
+        display: block;
+    }
+    /* slider */
+    .contenedor-slide{
+        width: 100%;
+        margin-bottom: 0;
+        background-color: #dcdcdc;
+        padding: 30px 0;
+    }
+    .slider-screen{
+        width: 100%;
+    }
+    .arrow-left{
+        left: 20%;
+    }
+    .arrow-right{
+        right: 20%;
+    }
+    .cont-img-slider,.text-responsive{
+        display: none;
+    }
+    .cont-responsive{
+        background-color: #fff;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    /* Teresa */
+    .paris-responsive{
+        width: 100%;
+    }
+    .contenedor-slider{
+        width: 120%;
+        background-color: #fff;
+    }
+    .card-responsive{
+        width: 90%;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 1em 0;
+    }
+    .medallero-responsive,.text-screen{
+        width: 100%;
+    }
+    .medallero{
+        padding: 0;
+    }
+    .paris-responsive{
+        flex-direction: column;
+    }
+    .texto-paris{
+        width: 90%;
+    }
+    .tere{
+        font-size: 1.5em;
+        margin: .5em;
+    }
+    /* tecnica */
+    .section-tecnica,.texto-tecnica{
+        width: 90%;
+    }
+    .tecnica-responsive,.section-evento{
+        padding-top: 30px;
+    }
+    .tecnica{
+        width: 100%;
+        flex-direction: column;
+        align-items:center;
+    }
+    .texto-tecnica{
+        width: 90%;
+        /* padding: 0; */
+    }
+    .tecnica-img{
+        width: 80%;
+        padding-bottom: 1em;
+    }
+    .texto-responsive{
+        display: none;
+    }
+    /* localizacion */
+    .ifame-responsive,.responsive-local{
+        width: 100%;
+    }
+    /* Resultados */
+    .localizacion,.container-localizacion{
+        width: 90%;
+        flex-direction: column;
+    }
+    /* temporada */
+    .temporada-medallas{
+        flex-direction: column;
+        margin: .5em;
+    }
+    .medalla-responsive{
+        width: 100%;
+        margin: .5em 0;
+    }
+    /* footer */
+    .menu-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .derechos{
+        flex-direction: column;
+    }
+    .copy-responsive,.terminos-responsive{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    /* cambio html --> historia */
+    .historia-responsive{
+        flex-direction: column;
+    }
+    .objetivos-responsive{
+        flex-direction: column-reverse;
+    }
+    .container-historia-responsive, .imagen{
+        width: 90%;
+        margin: 1em 0;
+    }
+    .title-historia-responsive{
+        display: block;
+        padding-top: 2em;
+    }
+    /* cambio html --> contacto */
+    .preguntas-responsive, .contacto-responsive{
+        margin: 2em 0;
+    }
+    .preguntas-responsive{
+        padding-top: 2em;
+    }
+    .contacto-responsive{
+        margin-top: 0;
+    }
+    /* cambio html --> (1)noticias-(2)eventos */
+    .evento{
+        flex-direction: column;
+    }
+    .section-evento{
+        flex-direction: column;
+    }
+    .card{
+        width: 90%;
+        margin: 1em 0;
+    }
+    /* Para mas de una sección */
+    /* .container-title{
+        position: sticky;
+        top: 80.88px;
+        z-index: 1;
+    } */
+    .title-evento{
+        width: 100%;
+        writing-mode:horizontal-tb;
+        text-align: center;
+    }
+    .publicidad-responsive{
+        display: block;
+        margin-bottom: 0;
+        padding: 1em 0;
+    }
+    .publicidad-normal{
+        display: none;
+    }
+    .hr-evento{
+        display: none;
+    }
+    .section-evento-julio{
+        margin: 0;
+    }
+    /* cambio html --> noticia, individual */
+    .encabezado-noticia{
+        width: 100%;
+    }
+    .span-responsive{
+        display: none;
+    }
+    .informacion-responsive{
+        width: 90%;
+    }
+    .hora-responsive{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .direccion-responsive{
+        flex-direction: column;
+    }
+    .iframe, .direccion, .caja-pruebas, .pruebas-responsive{
+        width: 100%;
+    }
+    .logos-responsive{
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .container-logo{
+        width: 20%;
+    }
+    .inscripcion-responsive, .inscripcion{
+        width: 100%;
+    }
+    .container-logo-form{
+        flex-direction: column;
+    }
+    /* cambio html --> noticia - plantilla */
+    .first-cont-responsive,.second-cont-responsive{
+        flex-direction: column;
+    }
+    .first-cont-img,.first-cont-text,.second-cont-text,.cont-last,.cont-img{
+        width: 100%;
+    }
+    .second-cont-text{
+        margin:0
+    }
+    .redes{
+        padding: 0;
+    }
+}
