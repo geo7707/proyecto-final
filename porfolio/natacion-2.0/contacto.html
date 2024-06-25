@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Carlos Martínez Gómez" content="Página web del Club natación adaptada Pozuelo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pozuelo-Natación</title>
+</head>
+<body>
+    <header class="w-100 p-fixed bg-blue">
+        <div class="title-responsive w-100 p-relative flex">
+            <h1 class="w-100 text-center color-white">
+                C.N.A. - Pozuelo
+            </h1>
+            <div class="btn-menuHeader p-absolute ocultar-elemento" id="btn-menu">
+                <i class="fa-solid fa-bars color-white"></i>
+            </div>
+        </div>
+        <div>
+            <ul class="menu-header flex flex-center padding-y-medium"
+            id="menu-header">
+                <li class="menu-header-item"><a class="menu-header-link color-white text-decoration-none padding-x-xl text-mayuscula" href="index.html">Home</a></li>
+                <li class="menu-header-item"><a class="menu-header-link color-white text-decoration-none padding-x-xl text-mayuscula" href="historia.html">Historia</a></li>
+                <li class="menu-header-item"><a class="menu-header-link color-white text-decoration-none padding-x-xl text-mayuscula" href="seccion_tecnica.html">Técnica</a></li>
+                <li class="menu-header-item"><a class="menu-header-link color-white text-decoration-none padding-x-xl text-mayuscula" href="noticias.html">Noticias</a></li>
+                <li class="menu-header-item"><a class="menu-header-link color-white text-decoration-none padding-x-xl text-mayuscula" href="torneos.html">Torneos</a></li>
+                <li class="menu-header-item"><a class="menu-header-link color-white text-decoration-none padding-x-xl text-mayuscula" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- -----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ((Main)) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----- ---------->
+    <main class="w-100 historia flex align-start">
+        <!-- -----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!((SECCION PREGUNTAS))!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ----- -->
+        <section class="preguntas-responsive w-100 flex align-center flex-center margin-y-xl">
+            <div class="w-90 flex flex-column align-center padding-y-medium border bg-soft-grey">
+                <div class="w-90 border bg-dark-grey">
+                    <h3 class="text-center color-white">
+                        Preguntas
+                    </h3>
+                </div>
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!((PREGUNTA--1))!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!------------- -->
+                <div class="w-90 flex flex-column align-center margin-y-small">
+                    <div class="btn-pregunta w-100 flex space-between align-center padding-y-small bg-blue" id="btn-pregunta">
+                        <p class="color-white text-center margin-left-s">¿Se puede nadar con cualquier tipo de discapacidad?</p>
+                        <i class="fas fa-arrow-down boton-flecha bg-black border-radius color-white block margin-x-medium"></i>
+                    </div>
+                    <!-- !!!!!!((ELEMENTO--OCULTO --<>JAVASCRIPT<>)) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------((<>JAVASCRIPT<>))----->
+                    <div class="w-100 ocultar-respuesta border" id="respuesta">
+                        <p class="text-center">
+                            Si, se puede. La natación es uno de los deportes donde compiten deportistas con todo tipo de discapacidad: visual, intelectual, física, personas sordas y parálisis cerebral.
+                        </p>
+                    </div>
+                </div>
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!((PREGUNTA--2))!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!------------- -->
+                <div class="w-90 flex flex-column align-center margin-y-small">
+                    <div class="btn-pregunta w-100 flex space-between align-center padding-y-small bg-blue">
+                        <p class="color-white text-center margin-left-s">¿Cómo es la natación para personas con discapacidad?</p>
+                        <i class="fas fa-arrow-down boton-flecha bg-black border-radius color-white block margin-x-medium"></i>
+                    </div>
+                    <!-- !!!!!!((ELEMENTO--OCULTO --<>JAVASCRIPT<>)) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------((<>JAVASCRIPT<>))----->
+                    <div class="w-100 ocultar-respuesta border">
+                        <p class="text-center">
+                            Los eventos son sustancialmente los mismos que en la natación convencional: 50, 100 y 400 metros, en los estilos libre, pecho, espalda y mariposa, con eventos de estilos combinados (medley), en pruebas individuales y en postas, separadas para mujeres y varones.
+                        </p>
+                    </div>
+                </div>
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!((PREGUNTA--3))!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!------------- -->
+                <div class="w-90 flex flex-column flex-center align-center margin-y-small">
+                    <div class="btn-pregunta w-100 flex space-between align-center padding-y-small bg-blue">
+                        <p class="w-70 color-white text-center margin-left-s">No tengo un buen nivel de nado</p>
+                        <i class="fas fa-arrow-down boton-flecha bg-black border-radius color-white block margin-x-medium"></i>
+                    </div>
+                    <!-- !!!!!!((ELEMENTO--OCULTO --<>JAVASCRIPT<>)) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------((<>JAVASCRIPT<>))----->
+                    <div class="w-100 border ocultar-respuesta">
+                        <p class="text-center">
+                            No importa, nuestros estrenadores se encargarán de enseñarte todo lo necesario para aprender a técnica que necesitas para coseguir un buen nivel de nado.
+                        </p>
+                    </div>
+                </div>
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!((PREGUNTA--4))!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!------------- -->
+                <div class="w-90 flex flex-column align-center margin-y-small">
+                    <div class="btn-pregunta w-100 flex space-between align-center padding-y-small bg-blue">
+                        <p class="color-white text-center margin-left-s">Me considero mayor para empezar a nadar</p>
+                        <i class="fas fa-arrow-down boton-flecha bg-black border-radius color-white block margin-x-medium"></i>
+                    </div>
+                    <!-- !!!!!!((ELEMENTO--OCULTO --<>JAVASCRIPT<>)) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------((<>JAVASCRIPT<>))----->
+                    <div class="w-100 ocultar-respuesta border">
+                        <p class="text-center">
+                        Ninguna edad es excluyente, solo necesitas ilusión ganas de aprender, del resto nos encargamos nosotros. Como ejemplo, en el club tenemos el honor de contar con Teresa Perales de 48 años que compite al más alto nivel y ha conseguido 22 medallas en unos juegos olímpicos.
+                        </p>
+                    </div>
+                </div>
+                  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!((PREGUNTA--5))!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!------------- -->
+                  <div class="w-90 flex flex-column align-center margin-y-small">
+                    <div class="btn-pregunta w-100 flex space-between align-center padding-y-small bg-blue">
+                        <p class="color-white text-center margin-left-s">¿Cómo puedo conocer mi nivel de discapacidad?</p>
+                        <i class="fas fa-arrow-down boton-flecha bg-black border-radius color-white block margin-x-medium"></i>
+                    </div>
+                    <!-- !!!!!!((ELEMENTO--OCULTO --<>JAVASCRIPT<>)) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------((<>JAVASCRIPT<>))----->
+                    <div class="w-100 ocultar-respuesta border">
+                        <p class="text-center">
+                            Es muy sencillo, la federación es la encargada de poner los límites de cada categoría y para ello se realiza un reconocimiento médico a cada deportista y dependiendo del resultado, se decide en que categoría se permite competir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!((SECCION--CONTACTO))!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ----- -->
+        <section class="contacto-responsive w-100 flex align-center flex-center margin-y-xl ">
+            <div class="w-90 flex flex-column align-center padding-y-medium border bg-soft-grey">
+                <div class="w-90 border bg-dark-grey">
+                    <h3 class="text-center color-white">
+                        Contacto
+                    </h3>
+                </div>
+                <div class="w-90 flex flex-column align-center">
+                    <form  id="formcontacto" class="w-100 flex flex-column margin-y-small">
+                        <div class="w-100 border padding-y-smal bg-white"> 
+                            <input required class="nameForm w-90 padding-y-small border-none margin-left-s bg-white" type="text" name="name" id="name" placeholder="NOMBRE">
+                        </div>
+                        <div class="w-100 border padding-y-small margin-y-small bg-white">
+                            <input required class="mailForm w-90 padding-y-small border-none margin-left-s bg-white" type="email" name="email" id="email" placeholder="E-MAIL">
+                        </div>
+                        <div class="w-100 border padding-y-small margin-y-small bg-white">
+                            <textarea required class="textForm w-90 padding-y-small margin-left-s border-none bg-white" name="text-area" id="textArea" cols="30" rows="8" id="" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                        </div>
+                        <div class="w-100 flex flex-center padding-y-medium">
+                            <div class="w-100 flex flex-center padding-y-medium">
+                                <input class="w-90 boton bg-blue color-white" type="submit" name="enviar" id="btnIns" value="Enviar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+      <!-- -----!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!((FOOTER))!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ----->
+      <footer class="w-100 border-top">
+        <div class="w-100 flex flex-column">
+            <div class="w-100 flex flex-center">
+                <ul class="menu-footer flex flex-center padding-y-medium"
+                id="menu-header">
+                    <li class="menu-header-item"><a class="menu-header-link color-black text-decoration-none padding-x-xl text-mayuscula" href="index.html">Home</a></li>
+                    <li class="menu-header-item"><a class="menu-header-link color-black text-decoration-none padding-x-xl text-mayuscula" href="historia.html">Historia</a></li>
+                    <li class="menu-header-item"><a class="menu-header-link color-black text-decoration-none padding-x-xl text-mayuscula" href="seccion_tecnica.html">Técnica</a></li>
+                    <li class="menu-header-item"><a class="menu-header-link color-black text-decoration-none padding-x-xl text-mayuscula" href="noticias.html">Noticias</a></li>
+                    <li class="menu-header-item"><a class="menu-header-link color-black text-decoration-none padding-x-xl text-mayuscula" href="torneos.html">Torneos</a></li>
+                    <li class="menu-header-item"><a class="menu-header-link color-black text-decoration-none padding-x-xl text-mayuscula" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="redes w-100 flex flex-center align-center padding-y-medium">
+                <div class="margin-x-medium font-size-m"><i class="fab fa-youtube"></i></div>
+                <div class="margin-x-medium font-size-m"><i class="fab fa-instagram"></i></div>
+                <div class="margin-x-medium font-size-m"><i class="fab fa-twitter"></i></div>
+            </div>
+            <div class="derechos w-100 flex space-around bg-blue padding-y-medium">
+                <div class="copy-responsive w-40">
+                    <p class="color-white">Copyright © 2024 Website. All rights reserved.</p>
+                </div>
+                <div class="terminos-responsive w-40 flex align-center flex-end padding-y-medium">
+                    <a class="color-white" href="#">Terms & Conditions</a> |
+                    <a class="color-white" href="#">Privacy Policy</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+   
+    <!-- <script src="js/nscript.js"></script> -->
+     <script src="js/script.js"></script>
+</body>
+</html>
